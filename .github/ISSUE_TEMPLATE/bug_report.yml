@@ -1,0 +1,31 @@
+name: Bug report
+description: Something doesn't work as it should
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a bug. For a security problem, please don't open an issue:
+        see the [security policy](https://github.com/Altiward/.github/blob/main/SECURITY.md).
+        For questions, use [Discussions](https://github.com/Altiward/altiward/discussions).
+
+        A bug in the Altiward server, agent or console? Use the
+        [Altiward bug report form](https://github.com/Altiward/altiward/issues/new/choose),
+        which asks for the versions and diagnostics needed to look into it.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What did you do, what did you expect, and what happened instead?
+    validations:
+      required: true
+  - type: input
+    id: where
+    attributes:
+      label: Where
+      description: The page, file or command involved, and the version or release if there is one.
+  - type: textarea
+    id: more
+    attributes:
+      label: Anything else
+      description: Steps to reproduce, your browser or operating system, screenshots, or logs. Redact names and hostnames first.

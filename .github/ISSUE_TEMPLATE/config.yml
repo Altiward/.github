@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Report a vulnerability privately
+    url: https://github.com/Altiward/.github/blob/main/SECURITY.md
+    about: Please don't open a public issue for a security problem. The security policy says how to report one privately.
+  - name: Ask a question
+    url: https://github.com/Altiward/altiward/discussions
+    about: Questions, setup help and ideas go in Discussions.
